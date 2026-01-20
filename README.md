@@ -74,27 +74,6 @@ sudo apt-get install gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf
 # Install kernel headers on Raspberry Pi
 sudo apt-get install raspberrypi-kernel-headers
 ```
-
----
-
-## 📁 Project Structure
-
-```
-Project_MOSCHIP_FINAL/
-├── ALL_codes/
-│   ├── mpu6050_driver.c      # MPU6050 kernel driver
-│   ├── oled_driver.c          # OLED display kernel driver
-│   ├── combined_app.c         # User-space application
-│   ├── mpu_disp.c            # Additional display application
-│   ├── Makefile              # Build configuration
-│   └── ...
-├── Documents/
-│   ├── MPU-6000.PDF          # MPU6050 datasheet
-│   ├── GME12864-41.pdf       # OLED display datasheet
-│   └── ...
-└── README.md                  # This file
-```
-
 ---
 
 ## 🏗️ Driver Architecture
