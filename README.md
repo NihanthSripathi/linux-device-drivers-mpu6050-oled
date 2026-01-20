@@ -130,7 +130,7 @@ sudo apt-get install raspberrypi-kernel-headers
 
 ### Step 1: Clone and Navigate
 ```bash
-cd /path/to/Project_MOSCHIP_FINAL/ALL_codes
+cd /path/to/ALL_codes
 ```
 
 ### Step 2: Build the Drivers and Application
